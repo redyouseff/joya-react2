@@ -16,16 +16,14 @@ const Presentation = () => {
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-[#3d6a64] to-[#698f8c] rounded-full"></div>
               <p className="text-lg leading-relaxed text-[#EFECE6]">
-                At Luxe Realty, we connect you with the finest properties in the
-                market, delivering exceptional service tailored to your unique
-                needs. Our dedicated team of elite brokers has a profound
-                understanding of joya real estate, ensuring you receive
-                unparalleled expertise and discretion in your property journey.
+                At Joya Properties, we bring you a curated selection of the most exquisite homes, offering a
+                personalized experience designed around your aspirations. Our expert team of distinguished brokers
+                is deeply versed in the luxury real estate market, providing you with unmatched knowledge and
+                confidentiality throughout your property journey.
               </p>
               <p className="text-lg leading-relaxed text-[#EFECE6]">
-                Experience the art of refined properties with us, where each home
-                tells a story and every detail matters. Your journey to joya
-                properties begins here.
+                Discover the elegance of refined living with us, where each property speaks of craftsmanship, and
+                every aspect is crafted with care. Begin your path to exceptional living with Joya Properties.
               </p>
             </div>
           </div>

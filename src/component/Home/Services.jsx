@@ -1,30 +1,46 @@
-import React from 'react';
+import React from "react";
 import { Home, Key, Briefcase, Phone } from 'lucide-react';
 
 const services = [
   {
     icon: Home,
-    title: 'Exquisite Property Stewardship',
-    description:
-      'A harmonious blend of care and sophistication, ensuring your Joya estates flourish with grace and elegance.',
+    title: 'Real estate buying & selling',
   },
   {
     icon: Key,
-    title: 'Bespoke Realty Solutions',
-    description:
-      'Unlock a world of possibilities with tailored real estate offerings, curated exclusively for the discerning buyer.',
+    title: 'Property rental',
   },
   {
     icon: Briefcase,
-    title: 'Legacy Wealth Guidance',
-    description:
-      'Strategic insights to cultivate your wealth and nurture a legacy through premium real estate investments.',
+    title: 'Commercial',
   },
   {
     icon: Phone,
-    title: 'Eternal Client Care',
-    description:
-      'Day or night, our dedicated support team stands by your side, ensuring your peace of mind is never interrupted.',
+    title: 'Off plan property sales',
+  },
+  {
+    icon: Home,
+    title: 'Property management',
+  },
+  {
+    icon: Key,
+    title: 'Holiday home – short term rental',
+  },
+  {
+    icon: Briefcase,
+    title: 'Snagging',
+  },
+  {
+    icon: Phone,
+    title: 'Mortgage advisory',
+  },
+  {
+    icon: Home,
+    title: 'Conveyancing',
+  },
+  {
+    icon: Key,
+    title: 'Golden visa',
   },
 ];
 
@@ -50,14 +66,6 @@ const Services = () => {
               <h3 className="text-2xl font-bold text-[#faf8f7] mb-3">
                 {service.title}
               </h3>
-              
-              {/* Description */}
-              <p className="text-lg text-[#f0ede6] group-hover:text-[#a0b3b1] transition duration-300">
-                {service.description}
-              </p>
-              
-              {/* Bottom Border Animation */}
-              <div className="absolute bottom-0 left-0 w-full h-1 bg-[#3d6a64] opacity-0 group-hover:opacity-100 transition duration-300"></div>
             </div>
           ))}
         </div>

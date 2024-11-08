@@ -40,14 +40,14 @@ const TeamSlider = () => {
 
         {/* Swiper Component */}
         <Swiper
-          spaceBetween={40}
+          spaceBetween={30}
           slidesPerView={2}
           pagination={{ clickable: true }}
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 10 },
-            640: { slidesPerView: 1, spaceBetween: 20 },
-            768: { slidesPerView: 1, spaceBetween: 30 },
-            1024: { slidesPerView: 2, spaceBetween: 40 },
+            640: { slidesPerView: 1, spaceBetween: 15 },
+            768: { slidesPerView: 1, spaceBetween: 20 },
+            1024: { slidesPerView: 2, spaceBetween: 30 },
           }}
           modules={[Pagination]}
         >
@@ -57,7 +57,7 @@ const TeamSlider = () => {
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="w-full h-[600px] md:h-[800px] lg:h-[1000px] object-cover object-top rounded-3xl transition-transform duration-500 group-hover:scale-105 grayscale hover:grayscale-0"
+                  className="w-full h-[400px] md:h-[600px] lg:h-[700px] object-cover object-top rounded-3xl transition-transform duration-500 group-hover:scale-105 grayscale hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-[#687878] bg-opacity-65 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500 flex flex-col justify-center items-center text-center text-[#f1f0ec]">
                   <h2 className="text-2xl font-semibold mb-2">{member.name}</h2>
