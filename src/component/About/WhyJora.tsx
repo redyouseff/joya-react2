@@ -8,7 +8,7 @@ const WhyJoya = () => {
         <div className="mx-2 md:mx-4 md:my-auto lg:mx-20 lg:my-auto">
           <div className="mb-2 lg:mb-10">
             <h1 className="text-2xl lg:text-5xl text-[#f0ede6] font-bold">
-              Why Joya
+               WHY JOYA
             </h1>
           </div>
           <p className="text-sm lg:text-lg font-serif text-[#f4f3ef] whitespace-pre-wrap leading-relaxed">

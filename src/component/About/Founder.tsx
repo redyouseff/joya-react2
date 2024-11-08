@@ -19,6 +19,40 @@ const Founder = () => {
             become as a person.
           </p>
 
+          {/* Nabeel Hammudeh Section */}
+          <div className="flex flex-col md:flex-row md:space-x-5 md:mx-10 lg:mx-60 mx-2 justify-start items-start mt-6 mb-12"> {/* Added margin-bottom */}
+            {/* Founder Image */}
+            <div className="w-full md:w-[350px] overflow-hidden rounded-lg shadow-lg group">
+              <img
+                src={image1}
+                alt="Joya Home"
+                className="w-[200px] h-[200px] object-cover rounded-full"
+              />
+            </div>
+            {/* Founder Info */}
+            <div className="flex flex-col justify-start items-start space-y-5 w-full">
+              <p className="md:text-2xl text-lg text-[#f0ede6] font-bold uppercase">
+                Nabeel Hammudeh
+              </p>
+              <p className="text-base md:text-lg text-[#f1f0ec] uppercase">
+                Managing Director
+              </p>
+              <div className="text-[#f1f0ec] whitespace-pre-wrap font-serif text-sm leading-relaxed">
+                Nabeel Hammudeh is the managing director of a Joya Properties
+                real estate agency that focuses on offering personalized and
+                bespoke real estate solutions. Under his leadership, the agency
+                is dedicated to empowering clients with financial freedom and
+                delivering exceptional service in the Joya property market.
+                Rabie leads with a strong commitment to integrity, excellence,
+                and innovation, ensuring long-term relationships with clients
+                and partners. His vision is to establish the agency as a
+                globally recognized player in the real estate industry, known
+                for trust, transparency, and success.
+              </div>
+            </div>
+          </div>
+
+          {/* Mohammad Rabie Section */}
           <div className="flex flex-col md:flex-row md:space-x-5 md:mx-10 lg:mx-60 mx-2 justify-start items-start">
             {/* Founder Image */}
             <div className="w-full md:w-[350px] overflow-hidden rounded-lg shadow-lg group">
@@ -47,38 +81,6 @@ const Founder = () => {
                 partners. His vision is to establish the agency as a globally
                 recognized player in the real estate industry, known for trust,
                 transparency, and success.
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col md:flex-row md:space-x-5 md:mx-10 lg:mx-60 mx-2 justify-start items-start mt-6">
-            {/* Founder Image */}
-            <div className="w-full md:w-[350px] overflow-hidden rounded-lg shadow-lg group">
-              <img
-                src={image1}
-                alt="Joya Home"
-                className="w-[200px] h-[200px] object-cover rounded-full"
-              />
-            </div>
-            {/* Founder Info */}
-            <div className="flex flex-col justify-start items-start space-y-5 w-full">
-              <p className="md:text-2xl text-lg text-[#f0ede6] font-bold uppercase">
-                Nabeel Hammudeh
-              </p>
-              <p className="text-base md:text-lg text-[#f1f0ec] uppercase">
-                Managing Director
-              </p>
-              <div className="text-[#f1f0ec] whitespace-pre-wrap font-serif text-sm leading-relaxed">
-                Nabeel Hammudeh is the managing director of a Joya Properties
-                real estate agency that focuses on offering personalized and
-                bespoke real estate solutions. Under his leadership, the agency
-                is dedicated to empowering clients with financial freedom and
-                delivering exceptional service in the Joya property market.
-                Rabie leads with a strong commitment to integrity, excellence,
-                and innovation, ensuring long-term relationships with clients
-                and partners. His vision is to establish the agency as a
-                globally recognized player in the real estate industry, known
-                for trust, transparency, and success.
               </div>
             </div>
           </div>
