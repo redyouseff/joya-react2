@@ -8,13 +8,13 @@ import image2 from "../../images/sliders/image 2.png";
 const teamMembers = [
   {
     name: "Mohammad Rabie",
-    role: "CEO",
+    role: "co-founder and managing director",
     img: image1,
     link: "https://www.joyaproperties.ae/en/member/domi-sofroniciova/",
   },
   {
     name: "Nabeel Hammudeh",
-    role: "Managing Director",
+    role: "sales and marking manager",
     img: image2,
     link: "https://www.joyaproperties.ae/en/member/ruba/",
   },
@@ -62,14 +62,14 @@ const TeamSlider = () => {
                 <div className="absolute inset-0 bg-[#687878] bg-opacity-65 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500 flex flex-col justify-center items-center text-center text-[#f1f0ec]">
                   <h2 className="text-2xl font-semibold mb-2">{member.name}</h2>
                   <h3 className="text-xl mb-4">{member.role}</h3>
-                  <a
+                  {/* <a
                     href={member.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#3d6a64] hover:underline"
                   >
                     Find out more
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </SwiperSlide>

@@ -49,13 +49,13 @@ const Footer = () => {
               Contact Us
             </h4>
             <p className="text-lg text-[#f0ede6]/80 mb-2">
-              123 Elite St, Dubai, UAE
+            Dubai, business bay, prime tower 1401
             </p>
             <p className="text-lg text-[#f0ede6]/80 mb-2">
               Phone: +971 4 765 4321
             </p>
             <p className="text-lg text-[#f0ede6]/80">
-              Email: contact@Joyaproperties.com
+              Email: info@joyaproperties.com
             </p>
           </div>
 

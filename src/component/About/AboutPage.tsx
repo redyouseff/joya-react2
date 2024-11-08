@@ -65,27 +65,27 @@ function AboutPage() {
       <div data-aos="fade-down" data-aos-delay="200">
         <OurMission />
       </div>
-
-      {/* People-Centric Approach Section */}
+{/* 
+      People-Centric Approach Section
       <div data-aos="fade-left" data-aos-delay="100">
         <PeopleApproach />
-      </div>
+      </div> */}
 
       {/* Education and Technology Prowess Section */}
-      <div data-aos="fade-up">
+      {/* <div data-aos="fade-up">
         <EducationTechnology />
-      </div>
+      </div> */}
 
       {/* Commercial Dominance Section */}
-      <div data-aos="fade-right">
+      {/* <div data-aos="fade-right">
         <CommercialDominance />
         <hr className="w-3/4 mx-auto mt-10 border-[#354948]" />
-      </div>
+      </div> */}
 
-      {/* Our Values Section */}
+      {/* Our Values Section
       <div data-aos="fade-up">
         <OurValues />
-      </div>
+      </div> */}
 
       {/* Our Agents Section */}
       <div
